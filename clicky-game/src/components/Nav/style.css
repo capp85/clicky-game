@@ -1,3 +1,31 @@
-.navbar {
-    display: flex;
-}
+nav {
+    width: 100%;
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgb(56, 56, 56);
+    min-height: 70px;
+    position: fixed;
+    z-index: 99;
+    margin-top: -20px;
+  }
+
+  a {
+    color:#fed420;
+    
+  }
+  
+  
+  
+  nav li {
+    display: inline-block;
+    padding: 26px 0;
+    width: 25%;
+  }
+  
+ 
+  
+  @media only screen and (max-width: 750px) {
+    #cur-sco, #top-sco {
+      font-size: 2rem;
+    }
+  }
